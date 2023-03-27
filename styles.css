@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+.text-large {
+  font-size: 120px;
+  font-family: 'Righteous', cursive;
+  /* font-family: 'VT323', monospace; */
+  color: aqua;
+}
+.text-medium {
+  font-size: 25px;
+  color: white;
+  display: flex;
+}
+.zoom {
+  transition: transform .2s;
+  width: fit-content;
+  font-size: 25px;
+  padding-right:15px;
+}
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+
+.Navbar {
+  display: flex;
+  justify-content: center;
+  background-image: url("Images/bg/welcome_background.jpg");
+  color: white;
+  text-decoration: none;
+  padding: 1vw;
+  width: 100%;
+}
+.Navbar-by-id {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 1vw;
+  width: 100%;
+}
+.navlist {
+  display: flex;
+  list-style: none;
+}
+.navlist li {
+  padding: 0px 1vw;
+}
+.navlist li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+
+.Welcome {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-image: url("Images/bg/welcome_background.jpg");
+  width: 100%;
+}
+
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 130px;
+  padding-right: 80px;
+  width: 40%;
+}
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.1em solid aqua;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+  width: fit-content;
+}
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: aqua;
+  }
+}
+
+
+.right-section {
+  padding-top: 260px;
+  width:fit-content;
+  display: flex;
+  justify-content: center;
+}
+.right-section img {
+  width: 350px;
+}
+
+
+.navlist img {
+  width: 50px;
+}
+.navigation li {
+  padding: 0px 150px;
+}
+
+
+.about-me{
+  background-color:black;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 500px;
+}
+.about-text{
+  width: 80%;
+  text-align: center;
+  align-self: center;
+}
+blockquote {
+	font-weight: 100;
+	font-size: 2rem;
+	max-width: 600px;
+	line-height: 1.4;
+	position: relative;
+	margin: 0;
+	padding: .5rem;
+}
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+blockquote:before {
+	content: '“';
+	left: -5rem;
+	top: -2rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: -5rem;
+	bottom: 1rem;
+}
+
+
+.icon{
+  width: 70px;
+  padding-right: 20px;
+}
+
+.drop-down{
+  margin: 30px 0px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.main-icon{
+  width: 90px;
+}
+
+.followme{
+  padding-top: 30px;
+}
+
+.skills{
+  background-color:black;
+  background-image: url('Images/bg/welcome-bg-trans.png');
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-left-section{
+  width: 60%;
+  padding: 0px 200px;
+  background-image: url('Images/bg/387-removebg-preview.png');
+  background-position-x: 70%;
+  background-position-y: 10%;
+  background-repeat: no-repeat;
+}
+.skills-right-section{
+  width: 40%;
+  padding: 100px 0px;
+}
+.skills-list{
+  display: flex;
+  flex-direction: column;
+}
+.btn-skl{
+  padding: 10px;
+  background: none;
+  border: none;
+  font-family: "Righteous", monospace;
+}
+
+.temp{
+  display: flex;
+}
+
+.hello{
+  font-size: 180px;
+}

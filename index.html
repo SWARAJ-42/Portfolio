@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE -->
+    <title>portfolio</title>
+    <!-- ALL CSS FILE LINKS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_new.css">
+    <link rel="stylesheet" href="styles_tooltip.css">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="Navbar">
+        <ul class="navlist">
+            <li><a href="">Home</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Interests</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- WELCOME section -->
+    <section class="Welcome">
+        <!-- WELCOME left section -->
+        <div class="left-section">
+            <!-- HELLO prompt -->
+            <div class="typewriter">
+                <h1 class="text-large hello">
+                    Hello !
+                </h1>
+            </div>
+            <!-- Text under the prompt first line -->
+            <div class="text-medium">
+                <div class="zoom">My</div>
+                <div class="zoom">name</div>
+                <div class="zoom">is</div>
+                <div class="zoom">Swaraj</div>
+                <div class="zoom">and</div>
+                <div class="zoom">I</div>
+                <div class="zoom">love</div>
+                <div class="zoom">programming.</div>
+            </div>
+            <!-- Text under the prompt second line-->
+            <div class="text-medium">
+                <div class="zoom">Scroll</div>
+                <div class="zoom">below</div>
+                <div class="zoom">to</div>
+                <div class="zoom">know</div>
+                <div class="zoom">more</div>
+                <div class="zoom">about</div>
+                <div class="zoom">me</div>
+                <div class="zoom">and</div>
+            </div>
+            <!-- Text under the prompt third line-->
+            <div class="text-medium">
+                <div class="zoom">my</div>
+                <div class="zoom">works.</div>
+            </div>
+            <!-- Follow row -->
+            <div class="drop-down">
+                <a target="_blank" href="https://www.linkedin.com/in/swaraj-biswal-2a8771252/"><img src="Images/follow/linkedin.png"
+                        class="icon img-zoom" alt=""></a>
+                <a target="_blank" href="https://twitter.com/SwarajB34275304"><img src="Images/follow/twitter.png" class="icon img-zoom"
+                        alt=""></a>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100087323571590"><img src="Images/follow/facebook.png"
+                        class="icon img-zoom" alt=""></a>
+                <a target="_blank" href="https://instagram.com/biswalswaraj_42?igshid=ZDdkNTZiNTM="><img
+                        src="Images/follow/instagram.png" class="icon img-zoom" alt=""></a>
+                <a target="_blank" href="https://www.quora.com/profile/Swaraj-Biswal-8"><img src="Images/follow/quora.png"
+                        class="icon img-zoom" alt=""></a>
+            </div>
+        </div>
+        <!-- WELCOME right section -->
+        <div class="right-section">
+            <img src="Images/bg/me.png" alt="">
+        </div>
+    </section>
+    <!-- Single page navigation -->
+    <nav class="Navbar-by-id">
+        <ul class="navigation navlist">
+            <li><a href="#skills"><img class="img-zoom" src="Images/nav-img/add.png" alt=""></a></li>
+            <li><a href="#projects"><img class="img-zoom" src="Images/nav-img/project.png" alt=""></a></li>
+            <li><a href="#startup"><img class="img-zoom" src="Images/nav-img/like.png" alt=""></a></li>
+            <li><a href="#contact"><img class="img-zoom" src="Images/nav-img/contact-mail.png" alt=""></a></li>
+        </ul>
+    </nav>
+    <!-- Design bar -->
+    <div style="background-color: black;">
+        <div style="background-color: aqua; width: 40%; height: 3px;"></div>
+    </div>
+    <!-- Quote -->
+    <section class="about-me">
+        <blockquote class="text-medium about-text">
+            I am a skilled and collaborative software developer with expertise in
+            web and mobile development, database
+            management, and system administration.
+        </blockquote>
+    </section>
+    <!-- Design bar -->
+    <div style="background-color: black; display: flex; justify-content: right; align-items: right;">
+        <div style="background-color: aqua; width: 30%; height: 3px;"></div>
+    </div>
+    <!-- SKILLS section -->
+    <section id="skills" class="skills">
+        <!-- SKILLS left section -->
+        <div class="skills-left-section">
+            <div class="text-large">
+                Skills <br> and Expertise
+            </div>
+        </div>
+        <!-- SKILLS right section -->
+        <div class="skills-right-section" id="skills">
+            <div class="text-medium skills-list">
+                <!-- Programming heading -->
+                <button id="programming" class="btn-skl text-medium" onclick="display_content(this.id)">Programming
+                    Languages</button>
+                <!-- Programming content -->
+                <div id="programming-content">
+                    <div class="drop-down">
+                        <div class="tooltip">
+                            <img src="Images/skill/python.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                Python
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:70% ; color:black ;">70</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/js.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                Javascript
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:50% ; color:black ;">50</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/c-.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                C++
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:70% ; color:black ;">70</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/c-sharp.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                C#
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:20% ; color:black ;">20</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/letter-c.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                C
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:60% ; color:black ;">60</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/sql.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                MySQL
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:30% ; color:black ;">30</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/html-5.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                HTML
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:80% ; color:black ;">80</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/css-3.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                CSS
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:60% ; color:black ;">60</div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Developement heading-->
+                <button id="development" class="btn-skl text-medium"
+                    onclick="display_content(this.id)">Development</button>
+                <!-- Developement content-->
+                <div id="development-content">
+                    <div class="drop-down">
+                        <div class="tooltip">
+                            <img src="Images/skill/android.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                Android dev
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:40% ; color:black ;">40</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/www.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                Web dev
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:50% ; color:black ;">50</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/hacker.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                Hacking
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:20% ; color:black ;">20</div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- IT heading-->
+                <button id="it-field" class="btn-skl text-medium" onclick="display_content(this.id)">IT
+                    Sector</button>
+                <!-- IT content -->
+                <div id="it-field-content">
+                    <div class="drop-down">
+                        <div class="tooltip">
+                            <img src="Images/skill/linux.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                Linux
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:70% ; color:black ;">70</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/operational-system.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                System admin
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:50% ; color:black ;">50</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/computer.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                Networking
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:60% ; color:black ;">60</div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Technologies heading -->
+                <button id="technologies" class="btn-skl text-medium"
+                    onclick="display_content(this.id)">Technologies</button>
+                <!-- Technologies content -->
+                <div id="technologies-content">
+                    <div class="drop-down">
+                        <div class="tooltip">
+                            <img src="Images/skill/blockchain.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                Blockchain
+                                <div class="meter-bg">
+                                    <div class="meter" style="width: 40% ; color:black ;">40</div>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tooltip">
+                            <img src="Images/skill/ai.png" class="icon img-zoom" alt="">
+                            <span class="tooltiptext tiptxt">
+                                AI
+                                <div class="meter-bg">
+                                    <div class="meter" style="width:20% ; color:black ;">20</div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Design bar -->
+    <div style="background-color: black;">
+        <div style="background-color: aqua; width: 60%; height: 3px;"></div>
+    </div>
+    <!-- PROJECTS section -->
+    <section id="projects" class="projects">
+        <!-- PROJECTS left section  -->
+        <div class="p-left-section">
+            <button class="btn-skl text-medium zoom">GPSbud</button>
+            <button class="btn-skl text-medium zoom">Hackster</button>
+            <button class="btn-skl text-medium zoom">Windows Assistant Lite</button>
+            <button class="btn-skl text-medium zoom">Flappy Bird Game</button>
+            <button class="btn-skl text-medium zoom">Alien Invaders Game</button>
+            <button class="btn-skl text-medium zoom">Music Player</button>
+            <button class="btn-skl text-medium zoom">Pong Game</button>
+            <button class="btn-skl text-medium zoom">CS50 Finance</button>
+        </div>
+        <!-- PROJECTS right section -->
+        <div class="p-right-section">
+            <div class="text-large">
+                Projects
+            </div>
+        </div>
+    </section>
+    <!-- Design bar -->
+    <div style="background-color: black; display: flex; justify-content: right; align-items: right;">
+        <div style="background-color: aqua; width: 50%; height: 3px;"></div>
+    </div>
+    <!-- STARTUP section -->
+    <section id="startup" class="startup">
+        <!-- STARTUP left section -->
+        <div class="start-left-section">
+            <div class="text-large">
+                What <br> is <br> Up
+            </div>
+        </div>
+        <!-- STARTUP right section -->
+        <div class="start-right-section" id="startup">
+            <div class="text-medium" style="font-family: Righteous, monospace ; text-align: center;">
+                I am the co-founder of a blockchain startup CHAINPAY, I am an innovative and driven individual with a
+                strong
+                passion for developing disruptive technology solutions. My focus is on creating a platform that provides
+                fast, secure, and transparent transactions for customers. I am looking for individuals who share my
+                passion for blockchain technology and are
+                willing to work hard to help bring my vision to life.
+            </div>
+            <!-- Knowmore button -->
+            <div class="Know">
+                <button class="knowMore">
+                    Know More
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Design bar -->
+    <div style="background-color: black;">
+        <div style="background-color: aqua; width: 50%; height: 3px;"></div>
+    </div>
+    <!-- CONTACTME section -->
+    <section id="contact" class="Contactme">
+        <!-- CONTACT heading -->
+        <div class="text-large Contact-text">
+            Contact Me
+        </div>
+        <!-- The message form -->
+        <div class="container">
+            <form action="action_page.php">
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <input type="email" id="email" name="email" placeholder="Your email ID..">
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <div class="sub">
+                    <input type="submit" value="Send Message!">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
